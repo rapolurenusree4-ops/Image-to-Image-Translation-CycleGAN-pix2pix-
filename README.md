@@ -1,2 +1,12 @@
-language = "python3"
-run = "<p><a href=\"https://github.com/affinelayer/pix2pix-tensorflow\"> [Tensorflow]</a> (by Christopher Hesse), <a href=\"https://github.com/Eyyub/tensorflow-pix2pix\">[Tensorflow]</a> (by Eyyüb Sariu), <a href=\"https://github.com/datitran/face2face-demo\"> [Tensorflow (face2face)]</a> (by Dat Tran), <a href=\"https://github.com/awjuliani/Pix2Pix-Film\"> [Tensorflow (film)]</a> (by Arthur Juliani), <a href=\"https://github.com/kaonashi-tyc/zi2zi\">[Tensorflow (zi2zi)]</a> (by Yuchen Tian), <a href=\"https://github.com/pfnet-research/chainer-pix2pix\">[Chainer]</a> (by mattya), <a href=\"https://github.com/tjwei/GANotebooks\">[tf/torch/keras/lasagne]</a> (by tjwei), <a href=\"https://github.com/taey16/pix2pixBEGAN.pytorch\">[Pytorch]</a> (by taey16) </p> </ul>"
+Image-to-Image Translation using CycleGAN & pix2pix
+This project implements a Generative Adversarial Network (GAN) framework to perform image-to-image translation tasks (e.g., converting sketches to photos or day scenes to night).
+
+Key Technical Highlights:
+
+Framework: PyTorch
+
+Architectures: Implemented both pix2pix (paired data) and CycleGAN (unpaired data using Cycle-Consistency Loss).
+
+Objective: Leveraged the Generator (ResNet-based) and Discriminator (PatchGAN) to achieve high-fidelity image synthesis.
+
+Data Pipeline: Optimized data loading and preprocessing for large-scale image datasets.
